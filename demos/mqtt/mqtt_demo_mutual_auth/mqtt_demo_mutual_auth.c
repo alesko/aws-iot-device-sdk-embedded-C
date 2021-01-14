@@ -210,7 +210,7 @@
 /**
  * @brief The MQTT message published in this example.
  */
-#define MQTT_EXAMPLE_MESSAGE                "Hello World!"
+#define MQTT_EXAMPLE_MESSAGE                "Hello from Alex BACC tesdev!"
 
 /**
  * @brief The length of the MQTT message published in this example.

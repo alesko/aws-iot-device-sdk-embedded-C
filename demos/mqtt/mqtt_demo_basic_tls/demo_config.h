@@ -57,9 +57,9 @@
  * a Mosquitto broker locally.
  * Alternatively, instructions to run a Mosquitto broker on a Docker container
  * can be viewed in the README.md of the root directory.
- *
- * #define BROKER_ENDPOINT               "...insert here..."
  */
+#define BROKER_ENDPOINT               "thinkpad"
+
 
 /**
  * @brief MQTT server port number.
@@ -72,9 +72,9 @@
  * @brief Path of the file containing the server's root CA certificate.
  *
  * This certificate should be PEM-encoded.
- *
- * #define ROOT_CA_CERT_PATH         ".....insert here...."
  */
+#define ROOT_CA_CERT_PATH         "certificates/AmazonRootCA1.crt"
+
 
 /**
  * @brief MQTT client identifier.

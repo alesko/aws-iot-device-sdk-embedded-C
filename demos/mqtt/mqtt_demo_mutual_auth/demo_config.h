@@ -54,9 +54,9 @@
  *
  * @note Your AWS IoT Core endpoint can be found in the AWS IoT console under
  * Settings/Custom Endpoint, or using the describe-endpoint API.
- *
- * #define AWS_IOT_ENDPOINT               "...insert here..."
  */
+#define AWS_IOT_ENDPOINT               "alal7s3peyjfs-ats.iot.eu-west-1.amazonaws.com"
+
 
 /**
  * @brief AWS IoT MQTT broker port number.
@@ -97,9 +97,9 @@
  * https://docs.aws.amazon.com/iot/latest/developerguide/client-authentication.html
  *
  * @note This certificate should be PEM-encoded.
- *
- * #define CLIENT_CERT_PATH    "...insert here..."
  */
+#define CLIENT_CERT_PATH    "certificates/54d7047250-certificate.pem.crt"
+
 
 /**
  * @brief Path of the file containing the client's private key.
@@ -109,9 +109,9 @@
  * https://docs.aws.amazon.com/iot/latest/developerguide/client-authentication.html
  *
  * @note This private key should be PEM-encoded.
- *
- * #define CLIENT_PRIVATE_KEY_PATH    "...insert here..."
  */
+#define CLIENT_PRIVATE_KEY_PATH    "certificates/54d7047250-private.pem.key"
+
 
 /**
  * @brief The username value for authenticating client to MQTT broker when
